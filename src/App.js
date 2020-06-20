@@ -10,7 +10,7 @@ class App extends Component {
 
   render() {
     return (
-      <Provider state={store}>
+      <Provider store={store}>
         <BrowserRouter>
           <div className="App">
             <Main/>
