@@ -114,7 +114,6 @@ class CommentForm extends Component {
 }
 
 function RenderDish({dish}) {
-  
   if (dish != null)
     return(
       <Card>
